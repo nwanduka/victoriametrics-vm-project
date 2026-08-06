@@ -8,11 +8,11 @@ spec:
   sources:
     - repoURL: https://victoriametrics.github.io/helm-charts/
       chart: victoria-metrics-k8s-stack
-      targetRevision: 0.87.0
+      targetRevision: 0.89.0
       helm:
         valueFiles:
           - $values/monitoring/vm-k8s-stack-values.yaml
-    - repoURL: https://github.com/<your-username>/vm-project.git
+    - repoURL: https://github.com/<nwanduka>/vm-project.git
       targetRevision: main
       ref: values
   destination:
